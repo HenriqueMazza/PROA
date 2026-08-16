@@ -1,0 +1,158 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    color: black; 
+    font-family: Verdana; 
+    font-size: 16px; 
+} 
+ 
+main { 
+    position: relative; 
+    width: 90%; 
+    height: 1500px; 
+    margin: auto; 
+    background-color: white; 
+} 
+
+
+#limao { 
+    position: relative; 
+    width: 100%; 
+    height: 130px; 
+    background-color: #b0f000; 
+    padding: 5px; 
+} 
+
+
+#vermelho { 
+    position: relative; 
+    width: 100%; 
+    height: 300px; 
+    background-color: #cc0000; 
+
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+} 
+
+
+#rosa1 { 
+    position: relative; 
+    width: 45%; 
+    height: 230px; 
+    background-color: #bb9999; 
+    padding: 25px; 
+} 
+
+
+#rosa2 { 
+    position: relative; 
+    width: 45%; 
+    height: 230px; 
+    background-color: #bb9999; 
+    padding: 25px; 
+} 
+
+
+#ciano { 
+    position: relative; 
+    width: 100%; 
+    height: 300px; 
+    background-color: #66cccc; 
+
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+} 
+
+
+#branca1 { 
+    position: relative; 
+    width: 19%; 
+    height: 250px; 
+    background-color: white; 
+    padding: 5px; 
+    text-align: center; 
+} 
+
+
+#branca2 { 
+    position: relative; 
+    width: 19%; 
+    height: 250px; 
+    background-color: white; 
+    padding: 5px; 
+    text-align: center; 
+} 
+
+
+#branca3 { 
+    position: relative; 
+    width: 19%; 
+    height: 250px; 
+    background-color: white; 
+    padding: 5px; 
+    text-align: center; 
+} 
+
+
+#branca4 { 
+    position: relative; 
+    width: 19%; 
+    height: 250px; 
+    background-color: white; 
+    padding: 5px; 
+    text-align: center; 
+} 
+
+
+#laranja { 
+    position: relative; 
+    width: 100%; 
+    height: 300px; 
+    background-color: #cc5500; 
+    padding: 30px; 
+} 
+
+
+#amarelo { 
+    position: relative; 
+    width: 100%; 
+    height: 300px; 
+    background-color: yellow; 
+
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+} 
+
+
+#azulescuro { 
+    position: relative; 
+    width: 42%; 
+    height: 250px; 
+    background-color: #222277; 
+    padding: 10px; 
+} 
+
+
+#verde { 
+    position: relative; 
+    width: 42%; 
+    height: 250px; 
+    background-color: #44bbbb; 
+    padding: 10px; 
+} 
+
+
+#rodape { 
+    position: relative; 
+    width: 100%; 
+    height: 80px; 
+    background-color: black; 
+}

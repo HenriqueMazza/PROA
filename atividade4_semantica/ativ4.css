@@ -1,0 +1,172 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    color: white; 
+    font-family: Verdana; 
+    font-size: 50px; 
+    text-align: center; 
+} 
+ 
+main { 
+    position: relative; 
+    width: 90%; 
+    height: 1130px; 
+    background-color: white; 
+    margin: auto; 
+} 
+
+#titulopag { 
+    position: relative; 
+    width: 100%; 
+    height: 150px; 
+    background-color: rgb(0, 0, 0); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: row; 
+    font-size: 70px; 
+} 
+
+#menu { 
+    position: relative; 
+    width: 100%; 
+    height: 60px; 
+    background-color: rgb(6, 26, 179); 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    font-size: 25px; 
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#menu2 { 
+    position: relative; 
+    width: 20%; 
+    height: 840px; 
+    background-color: #999999; 
+    float: left; 
+    font-size: 30px; 
+    text-align: left; 
+    padding: 0;
+} 
+
+#menu2 a {
+    display: block;
+    width: 100%;
+    height: 76px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+section { 
+    position: relative; 
+    width: 60%; 
+    height: 840px; 
+    background-color: #ffffff; 
+    float: left; 
+    font-size: 50px; 
+    color: black; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    flex-direction: column; 
+} 
+
+ SECTION */
+
+#titulosecao { 
+    position: relative; 
+    width: 96%; 
+    height: 100px; 
+    background-color: rgb(255, 255, 255); 
+    margin: auto; 
+    color: black; 
+    font-size: 40px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+
+#divsecao { 
+    position: relative; 
+    width: 96%; 
+    height: 280px; 
+    background-color: #996600; 
+    margin: auto; 
+} 
+
+#divsecao img {
+    width: 100%;
+    height: 100%;
+}
+
+#paragrafo { 
+    position: relative; 
+    width: 96%; 
+    height: 140px; 
+    background-color: #CCCCFF; 
+    margin: auto; 
+    color: black; 
+    font-size: 20px; 
+    text-align: left; 
+    padding: 10px;
+} 
+
+#caixa { 
+    position: relative; 
+    width: 96%; 
+    height: 200px; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+.caixinha { 
+    position: relative; 
+    width: 32%; 
+    height: 190px; 
+    background-color: #666; 
+} 
+
+.caixinha img {
+    width: 100%;
+    height: 100%;
+}
+
+aside { 
+    position: relative; 
+    width: 20%; 
+    height: 840px; 
+    background-color: #ff00ff; 
+    float: left; 
+} 
+
+aside img {
+    width: 100%;
+    height: 100%;
+}
+
+footer { 
+    position: relative; 
+    width: 100%; 
+    height: 80px; 
+    background-color: #000000; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    clear: left; 
+}
