@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando tags de formulario</title>
+
+    <link rel="stylesheet" href="formularios.css">
+
+</head>
+<body>
+
+    <form action="">
+
+        <fieldset>
+            <legend> Cadastro de cliente</legend>
+                <label>Digite o seu nome:</label>
+                <input type="text" name="nomeUsuario" size="30"  maxlength="30" required placeholder="Digite seu nome aqui!">
+                <br>
+                <label>Digite o seu email:</label>
+                <input type="email" name="emailUsuario" size="30"  maxlength="60" required>
+                <br>
+                <label>Digite a sua senha:</label>
+                <input type="password" name="senhaUsuario" size="10"  maxlength="10" required>
+                <br>
+                <label> Utiliza o SUS com frequencia?</label>
+                <input type="radio" name="opcao" value="sim"> SIM
+                <input type="radio" name="opcao" value="nao"> NAO
+                <br>
+                <label> Quais browsers voce utiliza?</label>
+                <input type="checkbox" name="resp1" value="chrome"> Chrome
+                <input type="checkbox" name="resp2" value="firefox"> Firefox
+                <input type="checkbox" name="resp3" value="opera"> Opera
+                <input type="checkbox" name="resp4" value="safari"> Safari
+                <input type="checkbox" name="resp4" value="edge"> Edge
+                <br>
+                <label>Escolha sua área de atuação</label>
+                <select name="areaUsuario">
+                    <option>Web</option>
+                    <option>Infra</option>
+                    <option>Games</option>
+                    <option>Dados</option>
+                </select>
+                <br>
+                <label>Digite sua data de nascimento:</label>
+                <input type="date" name="dataNasc">
+                <br>
+                <textarea name="coment" cols="20" rows="10" placeholder="Comente aqui"></textarea>
+                <br>
+                <label>Quantidade desejada:</label>
+                <input type="number" name="qtd">
+                <br>
+                <label>Porcentagem concluida</label>
+                <meter value="98" min="0" max="100" low="20" high="90" optimum="80">70%</meter> 
+                <br>
+                <label>Porcentagem concluida</label>
+                <progress value="45" max="100" min="10" name="progresso">45%</progress>
+                <br>
+                <input type="color">
+                <br><br>
+
+                <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.33330372208!2d-46.342270173768014!3d-23.52051161009458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7b1e14543787%3A0x5f9b81d75b53037e!2sPra%C3%A7a%20de%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1787152057809!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+                <br><br>
+                <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5Hn58p-hYC0?si=pOG0-TXiCMGAEJMR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <br><br>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
