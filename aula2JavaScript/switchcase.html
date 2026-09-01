@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch case</title>
+</head>
+<body>
+    <h1>Testando comando Switch Case</h1>
+</body>
+
+    <script>
+        let semafaro = prompt("Digite a cor do semafaro: ").toLowerCase()
+
+        switch (semafaro){
+            case "vermelho":
+                alert("Pare o carro!")
+                break
+            case "amarelo":
+                alert("Atenção! diminua a velocidade")
+                break
+            case "verde":
+                alert("Pode continuar com o carro")
+                break
+            default:
+                alert("Cor invalida!")
+        }
+
+    </script>
+
+</html>

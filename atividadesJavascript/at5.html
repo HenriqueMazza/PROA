@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 5</title>
+</head>
+<body>
+    
+<script>
+preco = parseFloat(prompt("Digite o preco em reais do produto"))
+quantidade = Number(prompt("Digite a quantidade comprada"))
+
+    if(quantidade > 10){
+        let desconto = preco * 0.90
+        document.write("O preco com desconto de 10%(por ser acima de 10 unidades) é:"+desconto+" reais<br>")
+    
+    } else {
+        document.write("O preco sem desconto é: "+preco+" reais<br>")
+    }
+
+</script>
+
+</body>
+</html>
