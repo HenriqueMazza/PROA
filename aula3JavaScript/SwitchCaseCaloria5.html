@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade calorias Switch Case</title>
+</head>
+<body>
+    
+<script>
+    let caloria = 0
+
+    let prato = Number(prompt("Digite o prato escolhido [1] - Vegetariano, [2] - Peixe, [3] - Frango, [4] - Carne"))
+    switch(prato){
+        case 1:
+        caloria = caloria + 180
+        break
+        case 2:
+        caloria = caloria + 230
+        break
+        case 3:
+        caloria = caloria + 250
+        break
+        case 4:
+        caloria = caloria + 350
+        break
+        default: 
+        alert("prato invalido, impossivel usar no calculo REFAÇA")
+    }
+
+        let sobremesa = Number(prompt("Digite a sobremesa escolhida [1] - Abacaxi, [2] - Sorvete Diet, [3] - Mouse Diet, [4] - Mouse chocolate"))
+    switch(sobremesa){
+        case 1:
+        caloria = caloria + 75
+        break
+        case 2:
+        caloria = caloria + 110
+        break
+        case 3:
+        caloria = caloria + 170
+        break
+        case 4:
+        caloria = caloria + 200
+        break
+        default:
+        alert("sobremesa invalido, impossivel usar no calculo REFAÇA")
+        
+    }
+
+        let bebida = Number(prompt("Digite a bebida escolhida [1] - chá, [2] - Suco de laranja, [3] - Suco de melão, [4] - Refrigerante Diet"))
+    switch(bebida){
+        case 1:
+        caloria = caloria + 20
+        break
+        case 2:
+        caloria = caloria + 70
+        break
+        case 3:
+        caloria = caloria + 100
+        break
+        case 4:
+        caloria = caloria + 65
+        break
+        default: 
+        alert("bebida invalida, impossivel usar no calculo REFAÇA")
+    }
+
+    document.write(" Calorias totais: "+caloria)
+
+</script>
+
+</body>
+</html>

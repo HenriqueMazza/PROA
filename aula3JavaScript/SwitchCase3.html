@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando switch case</title>
+</head>
+<body>
+    <h1>Testando switch case</h1>
+
+<script>
+    let cargo = prompt("Digite o seu cargo: (supervisor, gerente, funcionario, diretor)").toLowerCase()
+
+    switch (cargo) {
+        case "supervisor":
+            document.write("Acesso restrito")
+            break
+        case "gerente":
+            document.write("Acesso liberado")
+            break
+        case "funcionario":
+            document.write("Acesso restrito")
+            break
+        case "diretor":
+            document.write("Acesso irrestrito")
+            break
+        default:
+            document.write("Cargo invalido")
+    }
+
+</script>
+
+</body>
+</html>
