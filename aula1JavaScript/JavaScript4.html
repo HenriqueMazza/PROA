@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições</title>
+</head>
+<body>
+    <H1>Testando IF</H1>
+
+    <script>
+        let nota1 = parseFloat(prompt("Digite a nota 1: "))
+        let nota2 = parseFloat(prompt("Digite a nota 2: "))
+        let nota3 = parseFloat(prompt("Digite a nota 3: "))
+
+        let media = (nota1 + nota2 + nota3)/3
+
+        document.write("A média das 3 notas é: "+media.toFixed(2)+"<br><br>")
+
+        if (media>=6){
+            document.write("O aluno foi aprovado<br>")
+        }else if(media >=5){
+            document.write("O aluno esta de recuperacao!")
+        } else {
+            document.write("O aluno foi reprovado")
+        }
+    </script>
+
+</body>
+</html>
