@@ -1,0 +1,40 @@
+.branca{
+    width: auto;
+    background-color: rgb(136, 219, 242);
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 15px solid rgb(210, 110, 110);
+
+}
+
+.branca1{
+    background-color: white;
+    width: 20%;
+    height: 85%;
+    border-radius: 15px;
+}
+
+.branca2{
+    background-color: white;
+    width: 20%;
+    height: 85%;
+    border-radius: 15px;
+}
+
+.branca3{
+    background-color: white;
+    width: 20%;
+    height: 85%;
+    border-radius: 15px;
+}
+
+.branca4{
+    background-color: white;
+    width: 20%;
+    height: 85%;
+    border-radius: 15px;
+}

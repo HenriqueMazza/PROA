@@ -1,0 +1,26 @@
+.secRosa{
+    width: auto;
+    background-color: rgb(167, 31, 31);
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 15px solid rgb(210, 110, 110);
+    
+
+}
+
+.rosa1{
+    background-color: rgba(227, 172, 172, 0.633);
+    width: 46%;
+    height: 80%;
+
+}
+
+.rosa2{
+    background-color: rgba(227, 172, 172, 0.633);
+    width: 46%;
+    height: 80%;
+}
+

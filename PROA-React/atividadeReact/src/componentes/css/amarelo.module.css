@@ -1,0 +1,26 @@
+.secAmarelo{
+    width: auto;
+    background-color: yellow;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 15px solid rgb(210, 110, 110);
+
+    
+}
+
+.azulEscuro{
+    background-color: darkblue;
+    width: 42%;
+    height: 85%;
+
+}
+
+.verde{
+    background-color: cadetblue;
+    width: 42%;
+    height: 85%;
+}
+

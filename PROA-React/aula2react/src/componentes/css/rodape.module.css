@@ -1,0 +1,17 @@
+.Rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(208, 174, 239);
+    width: auto;
+    padding: 1%;
+
+}
+
+.Rodape h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(13, 113, 80);
+    text-align: center;
+}
