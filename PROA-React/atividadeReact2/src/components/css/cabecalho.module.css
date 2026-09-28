@@ -1,0 +1,42 @@
+.header {
+    position: relative; 
+    height: 400px;
+    background-color: aquamarine;
+    background-image: url(../../assets/guitarras/guitarras_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.barra {
+    position: absolute; 
+    bottom: 50px; 
+    right: 50px; 
+    background-color: white; 
+    padding: 20px;
+    border-radius: 4px; 
+
+}
+
+
+.lista {
+    display: flex; 
+    list-style: none; 
+    text-decoration: none;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 55px;
+}
+
+.item a {
+    text-decoration: none; 
+    color: #4a151b; 
+    font-family: Arial;
+    font-size: 30px;
+
+}
+
+.item a:hover {
+    color: #6b1d28;
+}
