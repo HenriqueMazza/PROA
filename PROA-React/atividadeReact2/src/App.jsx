@@ -5,6 +5,10 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Cabecalho from './components/cabecalho'
 import Vermelho from './components/vermelho'
+import Branco from './components/branco'
+import Laranja from './components/laranja'
+import Branco2 from './components/branco2'
+import Preto from './components/preto'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +18,10 @@ function App() {
      <main>
         <Cabecalho/>
         <Vermelho/>
+        <Branco/>
+        <Laranja/>
+        <Branco2/>
+        <Preto/>
      </main>
     </>
   )

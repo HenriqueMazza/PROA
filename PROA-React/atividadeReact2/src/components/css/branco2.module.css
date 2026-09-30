@@ -1,0 +1,86 @@
+.fundoBranco2 {
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+  padding: 40px 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.contato {
+  position: relative;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contato :global(label) {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 12px;
+  color: #333;
+}
+
+.contato :global(input),
+.contato :global(textarea) {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: "Lato", sans-serif;
+}
+
+.contato :global(textarea) {
+  height: 100px;
+  resize: none;
+}
+
+.contato :global(button) {
+  margin-top: 20px;
+  padding: 10px 30px;
+  width: 150px;
+  align-self: flex-start;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  transition: 0.3s all;
+}
+
+.contato :global(button):hover {
+  background-color: #6A4A48;
+  color: white;
+}
+
+.redesSociais {
+  position: relative;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.redesSociais :global(p) {
+  color: #6A4A48;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.redes :global(img) {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
