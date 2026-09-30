@@ -1,0 +1,30 @@
+.homepageArea{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.homeMala{
+    position: relative;
+    width: 45%;
+    height: 95%;
+    background-image: url(../../assets/imagesAgencia/mala.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.homeTexto{
+    position: relative;
+    width: 45%;
+    height: 65%;
+
+    color: rgb(9, 46, 165);
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
