@@ -2,6 +2,6 @@ main{
   position: relative;
   margin: auto;
   width: 92%;
-  height: 4200px;
+  height: auto;
   background-color: rgb(161, 233, 233);
 }

@@ -1,7 +1,7 @@
-import Styles from './css/rodape.module.css';
-import whats from '../imgs/whats.png';
-import insta from '../imgs/insta.png';
-import face from '../imgs/face.png';
+import Styles from './css/preto.module.css';
+import whats from '../assets/guitarras/whats.png';
+import insta from '../assets/guitarras/insta.png';
+import face from '../assets/guitarras/face.png';
 
 function Preto() {
     return (

@@ -10,14 +10,16 @@
 .preto h4 {
     font-size: 16px;
     margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .preto p {
     font-size: 14px;
     margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.iconesPreto {
+.iconePreto {
     display: flex;
     flex-direction: row;
     justify-content: center;
