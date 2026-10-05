@@ -1,0 +1,13 @@
+.escociaArea{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: url(../../assets/imagesAgencia/Escocia.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}

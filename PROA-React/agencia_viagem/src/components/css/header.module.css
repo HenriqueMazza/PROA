@@ -1,10 +1,79 @@
 header{
     position: relative;
     width: 100%;
-    height: 180px;
-    background-color: rgb(9, 196, 196);
+    height: 130px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
+
+.logo{
+    position: relative;
+    width: 9%;
+    height: 130px;
+
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    position: relative;
+    width: 45%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav a{
+    width: auto;
+    height: auto;
+    background-color: #004466;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+.nav a:hover{
+    background-color: rgb(236, 146, 82);
+    color: #004466;
+    transition: 0.35s;
+    transform: scale(1.08); 
+    
+}
+
+.busca{
+    position: relative;
+    width: 20%;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.busca img{
+    width: 12%;
+    height: 55%;
+}
+
+.busca input{
+    width: 65%;
+    height: 40%;
+    border-radius: 8px;
+}
+
