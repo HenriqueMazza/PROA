@@ -5,9 +5,18 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     background-image: url(../../assets/imagesAgencia/Escocia.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+}
+
+h1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    -webkit-text-fill-color:#7b1111;
+    -webkit-text-stroke-color:rgb(255, 255, 255);
+    -webkit-text-stroke-width:1px;
 }
