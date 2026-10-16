@@ -1,0 +1,32 @@
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;   
+    gap: 16px;     
+    flex-direction: row;
+    padding: 2%;
+    background-color: rgb(236, 160, 160);
+}
+
+.CardsRacismo, 
+.CardsHomofobia, 
+.CardsTransfobia, 
+.CardsMisoginia {
+    width: 22%;
+    height: AUTO;
+    background-color: rgb(151, 25, 25); 
+    padding: 20px;
+    border-radius: 13px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.CardsRacismo img, 
+.CardsHomofobia img, 
+.CardsTransfobia img, 
+.CardsMisoginia img {
+    width: 100%;
+    height: 50%;
+
+}
