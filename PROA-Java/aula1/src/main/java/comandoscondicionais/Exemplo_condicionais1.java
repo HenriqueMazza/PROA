@@ -24,10 +24,12 @@ public class Exemplo_condicionais1 {
 
         System.out.println("A media das 4 notas é: "+media);
 
-        if (media>=6){
-            System.out.println("Aluno aprovado!");
-        } else {
+        if (media<=5){
             System.out.println("Aluno reprovado!");
+        } else if (media>5 && media<6){
+            System.out.println("Aluno de recuperação!");
+        } else {
+            System.out.println("Aluno aprovado");
         }
 
 
